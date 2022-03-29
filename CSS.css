@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E4FBFF;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.NavAndName {
+    background-color: #EFFFFD;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.NavBar {
+    padding: 24px;
+    padding-top: 26px;
+    display: flex;
+    align-content: flex-end;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NavAndName .NavBar .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-left: 625px;
+}
+
+.NavAndName .NavBar button {
+    background-color: transparent;
+    border: none;
+    margin: auto 18px;
+    color: black;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.NavAndName .NavBar button:hover {
+    color: #42C2FF;
+    cursor: pointer;
+}
+
+.collagename {
+    margin: 100px auto;
+}
+
+#mob {
+    border: 1px solid black;
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#mob:hover {
+    background-color: #42C2FF;
+    color: white;
+    font-weight: 100;
+    border: 1px solid #42C2FF;
+}
+
+.NavAndName h1 {
+    color: black;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#AboutUS {
+    margin-top: 45px;
+    background-color: #42C2FF;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    color: white;
+    font-size: 16px;
+}
+
+#AboutUS:hover {
+    border: 1.5px solid #42C2FF;
+    background-color: transparent;
+    color: #42C2FF;
+    font-weight: 700;
+}
+
+.ourCourses h3,
+.maph3 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    margin-top: 50px;
+}
+
+.hr {
+    background-color: black;
+    height: 2.5px;
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sixdivs {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    height: 360px;
+    margin: 20px;
+    width: 360px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.card h1,
+.card p {
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.card p {
+    width: 200px;
+    font-size: 13px;
+    color: black;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 19px 10px #DDDDDDAA;
+}
+
+.card img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #EFFFFD;
+    height: 300px;
+    text-align: center;
+}
+
+.comment h1 {
+    margin: auto;
+    text-align: center;
+    color: #42C2FF;
+    font-weight: 100;
+    font-family: 'Forum', cursive;
+    width: 550px;
+    font-size: 30px;
+}
+
+.comment img {
+    border-radius: 150px;
+    margin: 15px;
+}
+
+.comment p {
+    color: #42C2FF;
+    font-size: 10px;
+    font-weight: 500px;
+}
+
+.Vision,
+.Mission {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Vision img {
+    margin: 30px;
+    border-radius: 15px 50px;
+}
+
+.Vision h1,
+.Mission h1 {
+    margin: 30px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 500px;
+    color: #42C2FF;
+    font-size: 35px;
+}
+
+.Vision p,
+.Mission p {
+    margin: 30px;
+    width: 500px;
+}
+
+.Mission {
+    background-color: #EFFFFD;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Mission img {
+    margin: 30px;
+    border-radius: 15px 50px 30px 5px;
+}
+
+.Mission h1 {
+    margin-top: 50px;
+}
+
+.map {
+    background-image: url("src/map.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.map:hover {
+    background-size: 110%;
+}
+
+.maph3 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #42C2FF;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon p {
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
