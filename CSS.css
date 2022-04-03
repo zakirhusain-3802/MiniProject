@@ -265,6 +265,7 @@ body {
 }
 
 .icon p {
+    padding-top: 15px;
     margin-left: 10px;
     font-size: 10px;
     font-weight: 900;
