@@ -4,12 +4,15 @@
 }
 
 body {
-    background-color: #E4FBFF;
+    background-color: white;
     font-family: 'DM Sans', sans-serif;
 }
 
 .NavAndName {
-    background-color: #EFFFFD;
+    background-image: url("src/BAground1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -20,8 +23,6 @@ body {
 .NavBar {
     padding: 24px;
     padding-top: 26px;
-    display: flex;
-    align-content: flex-end;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -32,6 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    align-items: center;
     padding-left: 625px;
 }
 
@@ -39,7 +41,7 @@ body {
     background-color: transparent;
     border: none;
     margin: auto 18px;
-    color: black;
+    color: white;
     font-size: 16px;
     transition: 0.3s;
 }
@@ -54,7 +56,7 @@ body {
 }
 
 #mob {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 155px;
     height: 45px;
     border-radius: 5px;
@@ -69,7 +71,7 @@ body {
 }
 
 .NavAndName h1 {
-    color: black;
+    color: white;
     font-size: 50px;
     margin-top: 20px;
 }
@@ -90,7 +92,6 @@ body {
     border: 1.5px solid #42C2FF;
     background-color: transparent;
     color: #42C2FF;
-    font-weight: 700;
 }
 
 .ourCourses h3,
@@ -111,7 +112,7 @@ body {
 }
 
 .sixdivs {
-    width: 60%;
+    width: 70%;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -121,10 +122,11 @@ body {
 .card {
     height: 360px;
     margin: 20px;
-    width: 360px;
+    width: 400px;
     text-align: center;
     border-radius: 15px;
     background-color: white;
+    border: none;
     transition: 0.5s;
 }
 
@@ -136,7 +138,7 @@ body {
 }
 
 .card p {
-    width: 200px;
+    width: 100%;
     font-size: 13px;
     color: black;
 }
@@ -147,6 +149,7 @@ body {
 
 .card img {
     width: 200px;
+    margin: auto;
     margin-top: 20px;
 }
 
@@ -266,4 +269,28 @@ body {
     font-size: 10px;
     font-weight: 900;
     letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+    .sixdivs {
+        height: 1150px;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin: auto;
+    }
+    .card h1,
+    .card p {
+        text-align: center;
+    }
+    .NavResponsive {
+        background-color: #42C2FF;
+        width: 100%;
+    }
+    .NavAndName .NavBar .buttons {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
 }
