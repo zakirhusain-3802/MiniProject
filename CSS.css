@@ -281,6 +281,9 @@ body {
 }
 
 @media (max-width: 1200px) {
+     #mob {
+        display: none;
+    }
     .NavAndName {
         background-position: center;
     }
