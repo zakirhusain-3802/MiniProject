@@ -33,8 +33,8 @@ body {
     padding-top: 26px;
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .NavAndName .NavBar .buttons {
@@ -295,6 +295,9 @@ body {
     .card h1,
     .card p {
         text-align: center;
+        margin: auto;
+        width: 80%;
+        padding-left: 0px;
     }
     .NavResponsive {
         background-color: #42C2FF;
@@ -330,6 +333,7 @@ body {
     .Mission p {
         width: 90%;
         margin-top: 10px;
+        margin: auto;
     }
     .map {
         background-position: center;
